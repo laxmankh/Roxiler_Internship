@@ -1,5 +1,5 @@
 const Product = require("../models/Product");
-const axios = require("axios")
+const axios = require("axios");
 
 exports.seedData = async (req, res) => {
   try {
